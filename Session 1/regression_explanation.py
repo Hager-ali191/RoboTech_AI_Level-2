@@ -2,6 +2,7 @@
 
 # **Cost function**
 
+"""
 ---
 > Cost Function : a step to minimize the loss or reach the global minimum value \
     
