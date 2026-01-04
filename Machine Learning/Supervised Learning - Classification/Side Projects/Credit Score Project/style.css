@@ -1,0 +1,32 @@
+  /* Target ALL possible select/dropdown elements */
+    [data-baseweb="select"] *,
+    [data-baseweb="popover"] *,
+    [data-baseweb="menu"] *,
+    [data-baseweb="select"] div,
+    [data-baseweb="select"] span,
+    [data-baseweb="select"] p,
+    .stSelectbox *,
+    .stSelectbox div,
+    .stSelectbox span,
+    .stSelectbox p,
+    /* Radio buttons */
+    [data-baseweb="radio"] *,
+    [data-baseweb="radio"] label,
+    [data-baseweb="radio"] span,
+    .stRadio *,
+    .stRadio label,
+    .stRadio span,
+    /* Checkboxes */
+    [data-baseweb="checkbox"] *,
+    [data-baseweb="checkbox"] label,
+    [data-baseweb="checkbox"] span,
+    .stCheckbox *,
+    .stCheckbox label,
+    .stCheckbox span,
+    /* Multi-select */
+    [data-baseweb="popover"][role="listbox"] *,
+    [role="option"] *,
+    [role="option"] {
+        color: #A3FF52 !important;
+        background-color: #0c1f3d !important;
+    }
